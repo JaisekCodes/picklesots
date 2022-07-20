@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Shadows+Into+Light&display=swap');
+/**
+COLORS: Accent ; GREEN: #90c687
+COLORS: Main ; WHITE: #efefef
+COLORS: Bold ; TEAL: #48eb99
+COLORS: Background ; GREY: #101010
+**/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li, a {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #90c687;
+    text-decoration: none;
+    padding-right: 10rem;
+}
+header {
+    background-color:#101010;
+    max-height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 10%;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 5rem;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    text-decoration: underline;
+    color: #48eb99;
+}
+footer {
+    background: #101010;
+    max-height: 8rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 10%;
+    margin-top: 2rem;
+}
+.footer-links {
+    list-style: none;
+    padding-left: 12rem;
+}
+.footer-links li {
+    display: inline-block;
+    padding: 0px 5rem;
+}
+.footer-links li a {
+    transition: all 0.3s ease 0s;
+}
+.footer-links li a:hover {
+    text-decoration: underline;
+    color: #48eb99;
+}
+.pic {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+h1 {
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 2rem;
+    color: #131313;
+    text-decoration: none;
+    padding-top: 2rem;
+}
+.maintext{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    max-width: 80rem;
+    padding-bottom: 2rem;
+}
+
+.bar {
+    border: 12rem solid #000000;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+.spacer {
+    margin-top: -2rem;
+
+}
+body {
+    background-color: #efefef;
+}
